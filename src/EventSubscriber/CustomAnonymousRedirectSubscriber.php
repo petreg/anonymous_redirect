@@ -102,8 +102,6 @@ class CustomAnonymousRedirectSubscriber extends ControllerBase implements EventS
 
     $redirectUrlOverrides = $redirectUrlOverridesText ? explode("\r\n", $redirectUrlOverridesText) : [];
 
-    \Drupal::logger('custom_anonymous_redirect')->info('redirectUrlOverrides ' . print_r($redirectUrlOverrides, true) . ' redirectUrlOverridesText ' . print_r($redirectUrlOverridesText, true));
-
     $currentPath = $event->getRequest()->getPathInfo();
 
     // Handle language prefix if present.

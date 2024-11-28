@@ -6,6 +6,6 @@ package: custom_anonymous_redirect
 configure: custom_anonymous_redirect.settings
 
 # Information added by Drupal.org packaging script on 2024-08-06
-version: '8.x-3.0'
+version: '8.x-3.0.1'
 project: 'custaom_anonymous_redirect'
 datestamp: 1722906826
