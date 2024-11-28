@@ -1,25 +1,16 @@
-# FORK anonymous_redirect
-## Description (2.x)
-The 2.0 version of anonymous redirect grants users with admin privileges the ability to redirect all anonymous users to any internal or external URL. Authenticated are still able to access the site as per usual.
+# Custom Anonymous Redirect
 
-This version of the module is currently only available for Drupal 9/10.
+This module grants users with admin privileges the ability to redirect all anonymous users to any internal or external URLs while allowing authenticated users to access the site as usual.
 
-## Description (1.x)
-The 1.0 version of Anonymous Redirect redirects anonymous users to another domain. Users can still login by visiting /user or /user/login. Authenticated users can access the site as per usual.
+## Installation
 
-This version of the module is currently only available for Drupal 7 and is currently unsupported.
+No special installation steps are necessary to use this module. For further information on installing modules in Drupal, refer to the [official documentation](https://www.drupal.org/docs/extending-drupal/installing-modules).
 
 ## Configuration
-Visit admin/config/development/anonymous-redirect. From here you can turn on and off anonymous redirects
 
-Set the path that anonymous users are redirected to
-Configure a list of internal paths that anonymous users are able to access
-Use '' or '/path_name' for internal urls, and "http://website_url.com" for external links.
-Wildcards (*) are supported for URL Overrides
-Installation
-Install as usual, see [http://drupal.org/node/895232](http://drupal.org/node/895232) for further information.
+Visit `/admin/config/system/custom_anonymous-redirect`. From here, you will be able to:
 
-## Project information
-Module categories: [Administration tools](https://www.drupal.org/project/project_module?f%5B2%5D=im_vid_3%3A53), [Developer tools](https://www.drupal.org/project/project_module?f%5B2%5D=im_vid_3%3A59)
-
-Created by [mstrelan](https://www.drupal.org/u/mstrelan) on 16 January 2013, updated 27 February 2024
+- Turn on and off anonymous redirects
+- Set the path that anonymous users are redirected to
+- Use `<front>` or `/path_name` for internal URLs, and `http://website_url.com` for external links
+- Wildcards (*) are supported for URL overrides

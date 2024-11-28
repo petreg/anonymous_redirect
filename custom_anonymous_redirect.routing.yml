@@ -1,0 +1,7 @@
+custom_anonymous_redirect.settings:
+  path: '/admin/config/system/custom-anonymous-redirect'
+  defaults:
+    _form: '\Drupal\custom_anonymous_redirect\Form\CustomAnonymousRedirectSettingsForm'
+    _title: 'Custom Anonymous Redirect'
+  requirements:
+    _permission: 'administer site configuration'

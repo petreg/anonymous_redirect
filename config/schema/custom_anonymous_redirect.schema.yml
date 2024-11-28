@@ -1,0 +1,12 @@
+custom_anonymous_redirect.settings:
+  type: config_object
+  mapping:
+    enable_redirect:
+      type: boolean
+      label: 'Enable Redirect'
+    redirect_url:
+      type: string
+      label: 'Redirect Url'
+    redirect_url_overrides:
+      type: string
+      label: 'Redirect URL Overrides'

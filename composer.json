@@ -1,0 +1,12 @@
+{
+    "name": "drupal/custom_anonymous_redirect",
+    "type": "drupal-module",
+    "description": "Redirects anonymous users to a pre-defined route or another domain",
+    "keywords": ["Drupal"],
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://github.com/petreg/anonymous_redirect",
+    "minimum-stability": "dev",
+    "require": {
+        "drupal/core": "^9.1 || ^10 || ^11"
+    }
+  }

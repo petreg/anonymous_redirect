@@ -1,0 +1,11 @@
+name: Custom Anonymous Redirect
+type: module
+description: Redirects anonymous users to a pre-defined route or another domain
+core_version_requirement: ^9.1 || ^10 || ^11
+package: custom_anonymous_redirect
+configure: custom_anonymous_redirect.settings
+
+# Information added by Drupal.org packaging script on 2024-08-06
+version: '8.x-3.0'
+project: 'custaom_anonymous_redirect'
+datestamp: 1722906826

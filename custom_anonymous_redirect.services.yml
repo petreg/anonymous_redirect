@@ -1,0 +1,6 @@
+services:
+  custom_anonymous_redirect_event_subscriber:
+    class: Drupal\custom_anonymous_redirect\EventSubscriber\CustomAnonymousRedirectSubscriber
+    arguments: ['@current_user', '@path.matcher', '@language_manager', '@module_handler']
+    tags:
+      - { name: event_subscriber }

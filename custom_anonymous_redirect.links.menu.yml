@@ -1,0 +1,7 @@
+custom_anonymous_redirect.settings:
+  title: 'Custom Anonymous Redirect'
+  parent: system.admin_config_system
+  description: 'Enable and configure Custom Anonymous Redirect.'
+  weight: 0
+  route_name: custom_anonymous_redirect.settings
+  menu_name: admin

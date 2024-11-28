@@ -1,0 +1,8 @@
+parameters:
+  level: 8
+  paths:
+    - src
+    - tests
+  reportUnmatchedIgnoredErrors: true
+  ignoreErrors:
+    - identifier: missingType.iterableValue
